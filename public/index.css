@@ -46,7 +46,7 @@ html {
     background: var(--green);
     color: var(--white);
     text-align: center;
-    z-index: 9999;
+    z-index: 99;
     font-size: 30px;
     border-radius: 6px;
     border-bottom-width: 2px;
@@ -305,7 +305,8 @@ section {
 .projects,
 .contact,
 footer,
-.side-bar {
+.side-bar,
+.social {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -615,10 +616,6 @@ section .title::after {
     height: 65px;
 }
 
-.contact .contact-content .mobile {
-    display: none;
-}
-
 .contact .contact-content .rows .info {
     margin-left: 30px;
 }
@@ -628,7 +625,7 @@ section .title::after {
 }
 
 .contact .contact-content .rows .info .sub-title,
-.contact .rows .info .sub-title a{
+.contact .rows .info .sub-title a {
     color: var(--light-black);
 }
 
@@ -698,6 +695,49 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+/* social */
+
+.social {
+    padding: 0;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.social .social-content ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social ul li a {
+    font-size: 37px;
+}
+
+
+.social ul li:nth-child(1) a {
+    color: #4267B2;
+}
+
+.social li:nth-child(2) a {
+    color: #1DA1F2;
+}
+
+.social li:nth-child(3) a {
+    color: #E1306C;
+}
+
+.social li:nth-child(4) a {
+    color: #2867B2;
+}
+
+.social li:nth-child(5) a {
+    color: #333;
+}
+
+.social li:nth-child(6) a {
+    color: #FF0000;
+}
+
 /* footer */
 
 footer {
@@ -716,10 +756,6 @@ footer span a:hover {
     text-decoration: underline;
 }
 
-
-
-
-
 /* responsive media queries */
 
 @media (max-width: 1300px) {
@@ -735,9 +771,20 @@ footer span a:hover {
 
 }
 
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 70px;
+    }
+}
+
 @media (max-width: 947px) {
     .max-width {
         max-width: 800px;
+    }
+
+    .side-bar.show {
+        opacity: 0;
+        pointer-events: none;
     }
 
     .menu-btn {
@@ -812,22 +859,16 @@ footer span a:hover {
         width: 100%;
         margin-bottom: 35px;
     }
+
+    .contact {
+        padding-bottom: 0;
+    }
+
+    .social {
+        display: block;
+    }
+
 }
-
-@media (max-width: 991px) {
-    .max-width {
-        padding: 0 50px;
-    }
-    .side-bar.show {
-        opacity: 0;
-        pointer-events: none;
-    }
-
-    .contact .contact-content .mobile {
-        display: flex;
-    }
-}
-
 
 @media (max-width: 690px) {
     .max-width {
@@ -850,6 +891,10 @@ footer span a:hover {
     .services .service-content .card {
         width: 100%;
         margin-bottom: 25px;
+    }
+
+    .social ul li a {
+        font-size: 34px;
     }
 }
 
@@ -876,5 +921,16 @@ footer span a:hover {
 
     .contact .right form .email {
         margin-left: 0;
+    }
+
+    .social ul li a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .social ul li a {
+        font-size: 25px;
     }
 }
