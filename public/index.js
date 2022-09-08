@@ -23,14 +23,14 @@ $(document).ready(() => {
         $('.navbar .menu').toggleClass('active');
         $('.menu-btn i').toggleClass('active');
     });
-    const typed1 = new Typed(".typing1", {
-        strings: ["Youtuber", "Developer", "Blogger", "Designer", "Freelancer"],
+    new Typed(".typing1", {
+        strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     })
-    const typed2 = new Typed(".typing2", {
-        strings: ["Youtuber", "Developer", "Blogger", "Designer", "Freelancer"],
+    new Typed(".typing2", {
+        strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
