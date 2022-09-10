@@ -91,30 +91,43 @@ html {
     transition: all 0.3s linear;
 }
 
+.side-bar li a .fa-geeksforgeeks,
+.side-bar li a .fa-leetcode{
+    position: absolute;
+    top: 30%;
+    background: url(../images/gfg.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 25px;
+}
+
+.side-bar li a .fa-leetcode {
+    background: url(../images/leetcode.svg);
+    background-repeat: no-repeat;
+}
+
 .side-bar li:nth-child(1) a {
-    background: #4267B2;
+    background: #2867B2;
+    ;
 }
 
 .side-bar li:nth-child(2) a {
-    background: #1DA1F2;
-    ;
+    background: #333;
 }
+
 
 .side-bar li:nth-child(3) a {
     background: #E1306C;
 }
 
 .side-bar li:nth-child(4) a {
-    background: #2867B2;
+    background: orange;
 }
 
 .side-bar li:nth-child(5) a {
-    background: #333;
+    background: #308D46;
 }
 
-.side-bar li:nth-child(6) a {
-    background: #FF0000;
-}
 
 .side-bar li a i {
     position: absolute;
@@ -132,7 +145,7 @@ html {
 
 .side-bar li a:hover {
     z-index: 2;
-    width: 140px;
+    width: 180px;
     border-bottom: 1px solid rgba(0, 0, 0, .5);
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
 }
@@ -452,7 +465,9 @@ section .title::after {
 }
 
 /* Skills section */
-
+#skills {
+    padding-bottom: 0px;
+}
 .skills .title::after {
     content: "what i know";
 }
@@ -507,19 +522,23 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-    width: 70%;
-}
-
-.skills-content .right .js::before {
     width: 80%;
 }
 
-.skills-content .right .python::before {
-    width: 90%;
+.skills-content .right .js::before {
+    width: 85%;
 }
 
-.skills-content .right .sql::before {
+.skills-content .right .python::before {
+    width: 95%;
+}
+
+.skills-content .right .react::before {
     width: 75%;
+}
+
+.skills-content .right .node::before {
+    width: 80%;
 }
 
 .skills .skills-content .left a {
@@ -541,6 +560,10 @@ section .title::after {
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
+}
+
+.projects .projects-content .card a {
+    color: var(--white);
 }
 
 .projects .projects-content .card:hover {
@@ -570,11 +593,12 @@ section .title::after {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+    background: var(--white);
     border: 5px solid var(--green);
 }
 
 .projects .projects-content .card:hover img {
-    border-color: var(--white);
+    border-color: var(--black);
 }
 
 .owl-dots {
@@ -715,30 +739,37 @@ section .title::after {
     font-size: 37px;
 }
 
+#social  .social-content ul li .fa-geeksforgeeks,
+#social  .social-content ul li .fa-leetcode {
+    background: url(../images/mobileleetcode.svg);
+    position: relative;
+    top:13%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 33px;
+}
 
+#social  .social-content ul li .fa-geeksforgeeks {
+    background: url(../images/mobilegfg.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
 #social ul li:nth-child(1) a {
     color: #4267B2;
 }
 
 #social li:nth-child(2) a {
-    color: #1DA1F2;
+    color: #333;
 }
 
 #social li:nth-child(3) a {
     color: #E1306C;
 }
 
-#social li:nth-child(4) a {
-    color: #2867B2;
-}
-
-#social li:nth-child(5) a {
-    color: #333;
-}
-
-#social li:nth-child(6) a {
+/* #social li:nth-child(6) a {
     color: #FF0000;
-}
+} */
 
 /* footer */
 

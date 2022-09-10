@@ -24,12 +24,12 @@
     <!-- side bar  -->
     <nav class="side-bar">
         <ul>
-            <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a></li>
-            <li><a href="#"><i class="fab fa-github"></i><span>GitHub</span></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+            <!-- <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li> -->
+            <li><a target="_blank" href="https://www.linkedin.com/in/ironstark007"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a></li>
+            <li><a target="_blank" href="https://github.com/IronStark007"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/ironstark_007"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a target="_blank" href="https://leetcode.com/Ironstark007"><i class="fab fa-leetcode"></i><span>Leetcode</span></a></li>
+            <li><a target="_blank" href="https://auth.geeksforgeeks.org/user/ironstark007"><i class="fab fa-geeksforgeeks"></i><span>Geeksforgeeks</span></a></li>
         </ul>
     </nav>
     <!-- Navigation bar -->
@@ -39,9 +39,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <!-- <li><a href="#services" class="menu-btn">Services</a></li> -->
                 <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn"><i class="fas fa-bars"></i></div>
@@ -68,17 +68,72 @@
                 <div class="column left"><img src="./images/about.jpg" alt="about"></div>
                 <div class="column right">
                     <div class="text">I'm Mohd Ali Ansari and I'm a <span class="typing2"></span></div>
-                    <p>I am working to contribute to the software community by making websites and software that can ease the user experience, have high stability, and are cost-effective. I love being a programmer, a problem-solver, and a designer.</p>
-                    <p>For the past 1+ year, I have been working as a Python Developer at Everestek LLC. Here I created and enhanced 5+ backend projects that can simplify frontend integration.</p>
-                    <p>I learned frontend stacks at Geekster. And for better coding and logic building, I solved problems related to Data Structure and Algorithms daily.</p>
+                    <p>I am working to contribute to the software community by creating websites and software that can
+                        ease the user experience, have high stability, and are cost-effective. I love being a
+                        programmer, a problem-solver, and a designer.</p>
+                    <p>For the past 1 year, I have been working as a Python Developer at Everestek LLC. Here I created
+                        and enhanced 5+ backend projects that can simplify frontend integration.</p>
                     <p> Hire Me, If you want someone who belives in quality coding.</p>
-                    <a target="_blank" href="https://drive.google.com/file/d/17t5GpibGZMH_-bHsrzuX-1VTj_M6Rdoj/view?usp=sharing" download>Download CV</a>
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/17t5GpibGZMH_-bHsrzuX-1VTj_M6Rdoj/view?usp=sharing"
+                        download>Download CV</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- project section -->
+    <section id="projects" class="projects">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="projects-content owl-carousel">
+                <div class="card">
+                    <a target="_blank" href="https://geekgallery.netlify.app/">
+                        <div class="box">
+                            <img src="./images/project-1.png" alt="geek gallery">
+                            <div class="text">Geek Gallery</div>
+                            <p>A website in React and Bootstrap using the Unsplash developer API.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target="_blank" href="https://ali-todolist.netlify.app/">
+                        <div class="box">
+                            <img src="./images/project-2.png" alt="todo list">
+                            <div class="text">Todo List</div>
+                            <p>An app to manage tasks using React and Redux.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target="_blank" href="https://employee-management-system-ali.herokuapp.com/employee/api/v1">
+                        <div class="box">
+                            <img src="./images/project-3.png" alt="employee system">
+                            <div class="text">Employee System</div>
+                            <p>An API for managing the employees.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://parking-system-ali.herokuapp.com/api/v1/parking" target="_blank">
+                        <div class="box">
+                            <img src="./images/project-4.png" alt="parking system">
+                            <div class="text">Parking System</div>
+                            <p>An API for managing vehicle parking.</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- <div class="card">
+                    <div class="box">
+                        <img src="./images/profile-5.jpeg" alt="">
+                        <div class="text">Project Name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
     <!-- Services section -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
         <div class="max-width">
             <h2 class="title">My services</h2>
             <div class="service-content">
@@ -108,7 +163,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Skills section -->
     <section id="skills" class="skills">
         <div class="max-width">
@@ -116,14 +171,25 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, molestiae minus aut neque sed
-                        incidunt perspiciatis laborum dignissimos quae vero maxime illum itaque architecto rem cum fuga.
-                        Nulla est soluta illum, esse sequi veritatis blanditiis laboriosam doloribus, fugiat consequatur
-                        rerum corrupti enim aperiam quia nobis? Nesciunt eaque saepe quia eveniet tempora alias quaerat,
-                        temporibus voluptatibus ex voluptates, eum accusamus nisi?</p>
-                    <a href="#">Read More</a>
+                    <p>I started my programming journey with python and after getting familiar with the syntax and
+                        control flow, I started making small projects to strong my base, and then I moved on to the
+                        flask framework to learn backend.</p>
+                    <p> In my first job, I learned FastAPI and made some industrial projects using both frameworks. I
+                        also learned about AWS and Docker in my career.</p>
+                    <p>I trained on HTML, CSS, JS, ReactJS, and NodeJS at Geekster. And for better coding and logic
+                        building, I solved
+                        problems related to Data Structure and Algorithms daily.</p>
+
+                    <!-- <a href="#">Read More</a> -->
                 </div>
                 <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line python"></div>
+                    </div>
                     <div class="bars">
                         <div class="info">
                             <span>HTML5</span>
@@ -134,73 +200,30 @@
                     <div class="bars">
                         <div class="info">
                             <span>CSS3</span>
-                            <span>70%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>80%</span>
+                            <span>85%</span>
                         </div>
                         <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>Python</span>
-                            <span>90%</span>
+                            <span>ReactJS</span>
+                            <span>75%</span>
                         </div>
-                        <div class="line python"></div>
+                        <div class="line react"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>SQL</span>
-                            <span>75%</span>
+                            <span>NodeJS</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line sql"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- project section -->
-    <section id="projects" class="projects">
-        <div class="max-width">
-            <h2 class="title">My projects</h2>
-            <div class="projects-content owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="./images/profile-1.jpeg" alt="">
-                        <div class="text">Project Name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="./images/profile-2.jpeg" alt="">
-                        <div class="text">Project Name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="./images/profile-3.jpeg" alt="">
-                        <div class="text">Project Name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="./images/profile-4.jpeg" alt="">
-                        <div class="text">Project Name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="./images/profile-5.jpeg" alt="">
-                        <div class="text">Project Name</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="line node"></div>
                     </div>
                 </div>
             </div>
@@ -213,8 +236,9 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit error corrupti eveniet
-                        earum alias nisi incidunt exercitationem, illo quae reiciendis, nihil molestias! Quia, aliquid.
+                    <p>
+                        If you have something in your mind or want to chat about some interesting project and feel like
+                        I can collaborate in your projects
                     </p>
                     <div class="icons">
                         <div class="rows">
@@ -268,12 +292,12 @@
         <div class="max-width">
             <div class="social-content">
                 <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fab fa-github"></i></a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                    <li><a target="_blank" href="https://www.linkedin.com/in/ironstark007"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/IronStark007"><i class="fab fa-github"></i></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/ironstark_007"><i class="fab fa-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://leetcode.com/Ironstark007"><i class="fab fa-leetcode"></i></a></li>
+                    <li><a target="_blank" href="https://auth.geeksforgeeks.org/user/ironstark007"><i class="fab fa-geeksforgeeks"></i></a></li>
                 </ul>
             </div>
         </div>
