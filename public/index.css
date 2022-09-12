@@ -249,7 +249,7 @@ html {
 
 .home {
     display: flex;
-    background: url('../images/banner.png') no-repeat center;
+    background: url('../images/banner01.png') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -259,7 +259,7 @@ html {
 }
 
 .home .max-width {
-    margin-right: 50px;
+    margin-left: 40px;
 }
 
 .home .home-content .text-1 {
