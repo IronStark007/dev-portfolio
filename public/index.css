@@ -733,17 +733,18 @@ section .title::after {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-content: center;
 }
 
 #social ul li a {
+    display: flex;
+    align-items: center;
     font-size: 37px;
 }
 
 #social  .social-content ul li .fa-geeksforgeeks,
 #social  .social-content ul li .fa-leetcode {
     background: url(../images/mobileleetcode.svg);
-    position: relative;
-    top:13%;
     background-repeat: no-repeat;
     width: 30px;
     height: 33px;
