@@ -746,8 +746,8 @@ section .title::after {
 #social  .social-content ul li .fa-leetcode {
     background: url(../images/mobileleetcode.svg);
     background-repeat: no-repeat;
-    width: 30px;
-    height: 33px;
+    width: 32px;
+    height: 36px;
 }
 
 #social  .social-content ul li .fa-geeksforgeeks {
@@ -928,6 +928,12 @@ footer span a:hover {
     #social ul li a {
         font-size: 34px;
     }
+
+    #social  .social-content ul li .fa-geeksforgeeks,
+    #social  .social-content ul li .fa-leetcode {
+        width: 30px;
+        height: 33px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -957,6 +963,12 @@ footer span a:hover {
 
     #social ul li a {
         font-size: 30px;
+    }
+
+    #social  .social-content ul li .fa-geeksforgeeks,
+    #social  .social-content ul li .fa-leetcode {
+        width: 27px;
+        height: 30px;
     }
 }
 
