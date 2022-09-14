@@ -24,13 +24,15 @@ $(document).ready(() => {
         $('.menu-btn i').toggleClass('active');
     });
     new Typed(".typing1", {
-        strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer"],
+        // strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer"],
+        strings: ["Software Developer", "Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     })
     new Typed(".typing2", {
-        strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer"],
+        // strings: ["Software Developer", "Web Developer", "MERN Developer", "FARM Developer"],
+        strings: ["Software Developer", "Web Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -57,3 +59,5 @@ $(document).ready(() => {
         }
     });
 })
+
+

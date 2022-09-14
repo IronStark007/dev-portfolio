@@ -409,6 +409,10 @@ section .title::after {
 
 /* services section */
 
+.services .service-content {
+    justify-content: space-evenly;
+}
+
 .services,
 .projects {
     background: var(--black);
@@ -427,7 +431,7 @@ section .title::after {
 }
 
 .services .service-content .card {
-    width: 32%;
+    width: 40%;
     background: var(--light-black);
     text-align: center;
     border-radius: 6px;
@@ -465,9 +469,7 @@ section .title::after {
 }
 
 /* Skills section */
-#skills {
-    padding-bottom: 0px;
-}
+
 .skills .title::after {
     content: "what i know";
 }
@@ -632,6 +634,10 @@ section .title::after {
     content: "get in touch";
 }
 
+.contact .contact-content .left {
+    margin: auto;
+}
+
 .contact .contact-content .left .icons {
     margin: 10px 0;
 }
@@ -679,6 +685,9 @@ section .title::after {
     margin-left: 10px;
 }
 
+.contact .right form textarea {
+    resize: none;
+}
 .contact .right form .textarea {
     height: 80px;
     width: 100%;
@@ -695,7 +704,6 @@ section .title::after {
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 }
-
 
 .contact .right form .field .textarea textarea {
     padding-top: 10px;
